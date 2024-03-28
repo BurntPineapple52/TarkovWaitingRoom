@@ -26,7 +26,7 @@ label {
 }
 
 input, select, button {
-    width: 80%;
+    width: 70%;
     padding: 8px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -34,6 +34,9 @@ input, select, button {
     border: 1px solid #555;
     background-color: #2a2a2a; /* Input and Button background */
     color: #ddd; /* Text color for inputs and button */
+}
+input {
+    width: 20%;
 }
 
 button {

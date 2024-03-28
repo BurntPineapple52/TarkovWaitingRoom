@@ -36,11 +36,11 @@ function calculateWaitTimes() {
             <div>${fastestPossibleMinutes.toFixed(1)} min  (${fastestPossibleHours.toFixed(1)} hrs)</div>
         </div>
         <div class="result">
-            <div>If Most Matching Took Less Time:</div>
+            <div>If Matching Took Less Time:</div>
             <div>${optimisticEstimateMinutes.toFixed(1)} min  (${optimisticEstimateHours.toFixed(1)} hrs)</div>
         </div>
         <div class="result">
-            <div>If Most Matching Took More Time:</div>
+            <div>If Matching Took More Time:</div>
             <div>${pessimisticEstimateMinutes.toFixed(1)} min  (${pessimisticEstimateHours.toFixed(1)} hrs)</div>
         </div>
         <div class="result">
@@ -77,10 +77,3 @@ function applyDynamicStyling(resultsDiv) {
     });
 }
 
-// Call this function when the page loads to set up initial styles
-function initializeStyles() {
-    document.getElementById("numMatches").style.width = '100%';
-    // Set any other initial styles for your elements here
-}
-
-window.onload = initializeStyles;
