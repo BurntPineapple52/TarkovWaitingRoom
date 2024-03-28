@@ -61,3 +61,21 @@ button:hover {
 #results p:hover {
     background-color: #2d2d2d;
 }
+
+.result {
+    background: #333; /* Background color */
+    color: #fff; /* Text color */
+    padding: 10px;
+    margin-top: 10px; /* Space between results */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.result > div:first-child {
+    font-weight: bold; /* Bold label text */
+    margin-bottom: 5px; /* Space between label and value */
+}
+
+.result > div:last-child {
+    font-size: 1.1em; /* Larger font size for value */
+}
