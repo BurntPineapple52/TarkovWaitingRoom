@@ -23,7 +23,7 @@ function calculateWaitTimes() {
 
     const resultsDiv = document.getElementById("results");
     resultsDiv.innerHTML = `
-        <p title="${optimisticFormula}">Estimated Minutes if Most Matching Took Less Time: ${optimisticEstimateMinutes.toFixed(2)} minutes (${optimisticEstimateHours.toFixed(2)} hours)</p>
-        <p title="${pessimisticFormula}">Estimated Minutes if Most Matching Took More Time: ${pessimisticEstimateMinutes.toFixed(2)} minutes (${pessimisticEstimateHours.toFixed(2)} hours)</p>
+        <p title="${optimisticFormula}">If Most Matching Took Less Time: ${optimisticEstimateMinutes.toFixed(2)} minutes (${optimisticEstimateHours.toFixed(2)} hours)</p>
+        <p title="${pessimisticFormula}">If Most Matching Took More Time: ${pessimisticEstimateMinutes.toFixed(2)} minutes (${pessimisticEstimateHours.toFixed(2)} hours)</p>
     `;
 }
